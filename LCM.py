@@ -1,8 +1,8 @@
 a,b=map(int,input().split())
-Max=a if a > b else b
-while(True) :
-    if Max%a==0 and Max%b==0 :
-        lcm=Max
+lcm=1
+for i in range(10000):
+    if lcm%a==0 and lcm%b==0:
         break
-    Max+=1
+    else:
+        lcm+=1
 print(lcm)
