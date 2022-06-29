@@ -1,3 +1,4 @@
-p,r,t=map(int,input().split())
-s=p*(1+r/100)**t
-print('%.2f'%s)
+import math
+p,r,t=map(float,input().split())
+ci=p*1.0*math.pow((1+r/100),t)
+print("{:.2f}".format(ci))
