@@ -6,3 +6,4 @@ while a>0:
         maxd=rem
     a//=10
 print(maxd)
+
