@@ -16,3 +16,4 @@ def add(a):
 a=int(input())
 res=add(a)
 print(res)
+        
