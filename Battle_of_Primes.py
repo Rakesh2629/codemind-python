@@ -13,4 +13,3 @@ for i in range(1,1000):
     if prime(i+a+b)==1:
         print(i)
         break
-    
