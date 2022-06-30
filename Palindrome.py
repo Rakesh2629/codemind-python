@@ -4,7 +4,7 @@ def rev(a):
         rem=a%10
         r=(r*10)+rem
         a//=10
-    return r 
+    return r
 a=int(input())
 if (a==rev(a)):
     print("True")
